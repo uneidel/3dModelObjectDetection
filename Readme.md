@@ -22,7 +22,7 @@ blender --background -P render.py
 
 
 # Process
-![alt text](https://github.com/uneidel/3dModelObjectDetection/raw/master/src/common/images/architecture.png "Architecture")
+![alt text](https://github.com/uneidel/3dModelObjectDetection/Images/architecture.PNG "Architecture")
 
 
 After the Process you receive a json file with metadata including Boundingboxes and the rendered pictures
@@ -31,7 +31,7 @@ After the Process you receive a json file with metadata including Boundingboxes 
 
 Download actual build from https://github.com/Microsoft/VoTT for a Visual Tagging Tool
 
- ![alt text](https://github.com/uneidel/3dModelObjectDetection/raw/master/src/common/images/vott.png "VoTT")
+ ![alt text](https://github.com/uneidel/3dModelObjectDetection/Images/vott.png "VoTT")
 
 USE Azure DataScienceVM to train the model:
 
@@ -84,4 +84,4 @@ make
 
 
 # Export to customvision
-![alt text](https://github.com/uneidel/3dModelObjectDetection/raw/master/src/common/images/customvision.png "customvision")
+![alt text](https://github.com/uneidel/3dModelObjectDetection/Images/customvision.png "customvision")
