@@ -35,7 +35,7 @@ After the Process you receive a json file with metadata including Boundingboxes 
 
 
 
- ![alt text](https://raw.githubusercontent.com/uneidel/3dModelObjectDetection/master/Images/vott.png "VoTT")
+ ![alt text](https://github.com/uneidel/3dModelObjectDetection/blob/master/Images/vott.PNG?raw=true "VoTT")
 
 USE Azure DataScienceVM to train the model:
 
@@ -88,4 +88,4 @@ make
 
 
 # Export to customvision
-![alt text](https://raw.githubusercontent.com/uneidel/3dModelObjectDetection/master/Images/customvision.png "customvision")
+![alt text](https://github.com/uneidel/3dModelObjectDetection/blob/master/Images/customvision.PNG?raw=true "customvision")
