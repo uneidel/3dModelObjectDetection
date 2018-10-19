@@ -305,7 +305,7 @@ def DeleteAllObjects():
 
 if __name__ == '__main__':
     pathToStl="C:\\Users\\uneidel\\Documents\\GitHub\\Generation4\\helmet.stl"
-    CreateFromScratch(pathToStl,"c:\\temp\\render.blend")
+    #CreateFromScratch(pathToStl,"c:\\temp\\render.blend")
     CreateRenderFromScene("C:\\Users\\uneidel\\Documents\\GitHub\\Generation4\\Helmet.blend", "Helmet")
    
     

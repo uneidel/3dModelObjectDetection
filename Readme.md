@@ -2,36 +2,40 @@
 # Prerquisites
 Blender - tested with 2.79 - www.blender.org
 VOTT - https://github.com/Microsoft/VoTT
+Download actual build from https://github.com/Microsoft/VoTT for a Visual Tagging Tool
 pip install azure-cognitiveservices-vision-customvision
+
 # Blender Activties
-Add Stl to empty Blender
+Add Stl to empty Blender or using py Function CreateFromScratch(pathToStl,"c:\\temp\\render.blend") to create new Scene
 
-## Set Active Camera
-Move Active Camera to View
-Hotkey:	Ctrl-Alt-Numpad0
-# Check with
-Hotkey:	Numpad0
-
+(
+    ## Set Active Camera
+    Move Active Camera to View
+    Hotkey:	Ctrl-Alt-Numpad0
+    # Check with
+    Hotkey:	Numpad0
+)
 
 #Run Script
 path "c:\Program Files\Blender Foundation\Blender\2.79\"
 #Run via blender to ease the use of bpy module
 blender --background -P render.py
 
-
+#Upload to CustomVision
+python VOTTtoCV.py
 
 
 # Process
-![alt text](https://github.com/uneidel/3dModelObjectDetection/Images/architecture.PNG "Architecture")
+![alt text](https://raw.githubusercontent.com/uneidel/3dModelObjectDetection/master/Images/architecture.PNG "Architecture")
 
 
 After the Process you receive a json file with metadata including Boundingboxes and the rendered pictures
 
 # Object Detection Yolo
 
-Download actual build from https://github.com/Microsoft/VoTT for a Visual Tagging Tool
 
- ![alt text](https://github.com/uneidel/3dModelObjectDetection/Images/vott.png "VoTT")
+
+ ![alt text](https://raw.githubusercontent.com/uneidel/3dModelObjectDetection/master/Images/vott.png "VoTT")
 
 USE Azure DataScienceVM to train the model:
 
@@ -84,4 +88,4 @@ make
 
 
 # Export to customvision
-![alt text](https://github.com/uneidel/3dModelObjectDetection/Images/customvision.png "customvision")
+![alt text](https://raw.githubusercontent.com/uneidel/3dModelObjectDetection/master/Images/customvision.png "customvision")
