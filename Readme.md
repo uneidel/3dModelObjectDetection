@@ -89,3 +89,7 @@ make
 
 # Export to customvision
 ![alt text](https://github.com/uneidel/3dModelObjectDetection/blob/master/Images/customvision.PNG?raw=true "customvision")
+
+
+#Score with Customvision
+![alt text](https://github.com/uneidel/3dModelObjectDetection/blob/master/Images/cvresult.PNG?raw=true "customvision")
