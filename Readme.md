@@ -92,4 +92,4 @@ make
 
 
 #Score with Customvision
-![alt text](https://github.com/uneidel/3dModelObjectDetection/blob/master/Images/cvresult.PNG?raw=true "customvision")
+![alt text](https://github.com/uneidel/3dModelObjectDetection/blob/master/Images/cvresult.png?raw=true "customvision")
